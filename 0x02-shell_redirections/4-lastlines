@@ -1,0 +1,2 @@
+#!/bin/bash
+-n 11/etc/passwd.
