@@ -1,4 +1,4 @@
 #!/bin/bash
-export PATH="$PATH:/action"; echo "Updated PATH: $PATH"
+export PATH=$PATH:/action
 
 
