@@ -1,2 +1,8 @@
 #!/bin/bash
-COUNT=1; while [ $COUNT -le 10 ]; do echo "Best School"; COUNT=$((COUNT + 1)); done
+i=1
+while [ $i -le 10 ]
+do
+  echo "Best School"
+  i=$((i+1))
+done
+
