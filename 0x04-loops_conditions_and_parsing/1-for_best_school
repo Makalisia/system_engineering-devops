@@ -1,17 +1,6 @@
-#!/bin/bash
-
-# This script uses a for loop to display "Best School" 10 times.
-
-# The for loop structure:
-# for VARIABLE in LIST_OF_ITEMS; do
-#   COMMANDS
-# done
-
-# We will use a sequence (1..10) as the list of items.
-# The variable 'i' will take on each value from 1 to 10.
-for i in {1..10}; do
-    echo "Best School"
+#!/usr/bin/env bash
+# This script is displaying "Best School" 10 times
+for ((i=1; i<=10; i++))
+do
+  echo "Best School"
 done
-
-# The script will execute the 'echo "Best School"' command 10 times.
-
